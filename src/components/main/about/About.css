@@ -1,0 +1,29 @@
+.about {
+    text-align: center;
+    margin: auto;
+    padding: 22px 0px;
+    width: 60%;
+  }
+  
+  
+  .about h3 {
+    padding: 20px 0;
+  }
+  
+  .about ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .about .col {
+    width: 100%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 10px;
+    margin: 10px auto;
+    box-sizing: border-box;
+  }
+  
+  .about-grid-items:hover {
+    background-color: #ddd;
+  }

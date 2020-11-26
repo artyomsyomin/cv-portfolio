@@ -1,0 +1,48 @@
+.contacts {
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+    
+    /* display: inline-block; */
+  }
+  
+  .contact-el {
+    padding: 0 8px;
+    display: inline-block;
+  }
+  
+  .contacts h2 {
+    margin-bottom: 45px;
+  }
+  
+  @media (max-width: 1300px) {
+    .contacts {
+      width: 90%;
+    }
+    .contact-el {
+      display: block;
+      font-size: 17px;
+    }
+  }
+  
+  /* ///////////////////// */
+  
+  .icons-links {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(27, 27, 27);
+    margin-top: 20px;
+    
+  }
+  
+  .icons-links a {
+    padding: 0 20px;
+    color: white;
+  }
+  
+  .icons-links a:hover{
+    color: #ff483b;
+  }

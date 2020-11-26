@@ -1,0 +1,50 @@
+.top-about {
+    text-align: center;
+    margin: 32px 0px;
+    width: 100%;
+    padding: 72px;
+    box-shadow: 0 2px 32px #ccc;
+  }
+  
+  .top-about h1 {
+    margin-bottom: 22px;
+    font-weight: bold;
+    font-size: 72px;
+  }
+  
+  .top-about h4 {
+    text-decoration: underline;
+  }
+  
+  .top-about button{
+    width: 200px;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 4px 4px 2px 1px #f3b4b0;
+    margin: 20px;
+    border: none;
+    background-color: #f44336;
+    cursor: pointer;
+  }
+  
+  .top-about button:hover {
+    background-color: #ec372a;
+    box-shadow: 3px 3px 2px 1px #ec9f99;
+  }
+  
+  
+  button:active, button:focus {
+    outline: none;
+  }
+  button::-moz-focus-inner {
+    border: 0;
+  }
+  
+  @media (max-width: 900px) {
+    .top-about h1 {
+      font-size: 50px;
+    }
+  }

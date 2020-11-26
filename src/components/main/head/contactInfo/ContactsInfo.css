@@ -1,0 +1,21 @@
+
+.added-contacts {
+    padding-top: 10px;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .added-contact-links {
+    margin: auto;
+    width: 90%;
+  }
+  
+  .added-contact-links a {
+    padding: 0 10px;
+    color: black;
+  }
+  
+  .added-contact-links a:hover {
+    color: #ff483b
+  }
