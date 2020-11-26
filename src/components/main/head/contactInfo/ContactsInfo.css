@@ -1,21 +1,30 @@
-
 .added-contacts {
-    padding-top: 10px;
-    width: 90%;
+  padding-top: 10px;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.added-contact-links {
+  margin: auto;
+  width: 90%;
+}
+
+.added-contact-links a {
+  padding: 0 10px;
+  color: black;
+}
+
+.added-contact-links a:hover {
+  color: #ff483b;
+}
+
+@media (max-width: 900px) {
+  .added-contacts {
     margin: auto;
-    text-align: center;
+    width: 100%;
   }
-  
   .added-contact-links {
-    margin: auto;
-    width: 90%;
+    padding-top: 16px;
   }
-  
-  .added-contact-links a {
-    padding: 0 10px;
-    color: black;
-  }
-  
-  .added-contact-links a:hover {
-    color: #ff483b
-  }
+}

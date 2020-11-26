@@ -1,5 +1,6 @@
 import React from 'react';
 import './Contacts.css';
+import ContactIcons from './ContactIcons/ContactIcons'
 
 const Contacts = (props) => {
   return (
@@ -29,15 +30,7 @@ const Contacts = (props) => {
       </div>
 
       <div className="icons-links">
-        <a href="https://vk.com/syominartyom">
-          <i className="fab fa-vk fa-2x"></i>
-        </a>
-        <a href="https://github.com/artyomsyomin">
-          <i className="fab fa-github fa-2x"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/artyom-syomin-a6a6261b6/">
-          <i className="fab fa-linkedin-in fa-2x"></i>
-        </a>
+        <ContactIcons/>
       </div>
     </div>
   );

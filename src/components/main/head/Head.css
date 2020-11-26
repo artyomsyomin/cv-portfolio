@@ -47,4 +47,7 @@
     .top-about h1 {
       font-size: 50px;
     }
+    .top-about button {
+      margin: 12px auto;
+    }
   }

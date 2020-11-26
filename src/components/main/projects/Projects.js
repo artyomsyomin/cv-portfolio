@@ -1,5 +1,6 @@
 import React from 'react';
-import './Projects.css'
+import './Projects.css';
+import ProjectItem from './ProjectItem/ProjectItem';
 
 const Projects = (props) => {
   return (
@@ -7,7 +8,8 @@ const Projects = (props) => {
       <h2>Projects.</h2>
       <div className="container">
         <div className="row">
-          <div className="col">
+          <ProjectItem />
+          {/* {/* <div className="col">
             <div id="proj-item">
               <span>
                 <i className="fas fa-hamburger fa-5x"></i>
@@ -17,9 +19,10 @@ const Projects = (props) => {
               <p>React, Redux, Hooks, html, Css...</p>
               <a href="#toapp">Open Project</a>
               <a href="#todit">GitHub Page</a>
-            </div>
-          </div>
-          <div className="col">
+            </div> */}
+        </div>
+
+        {/* <div className="col">
             <div id="proj-item">
               <span>
                 <i className="fas fa-hamburger fa-5x"></i>
@@ -82,7 +85,7 @@ const Projects = (props) => {
               <a href="#todit">GitHub Page</a>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
