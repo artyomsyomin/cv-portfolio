@@ -1,5 +1,14 @@
 export const projectData = [
   {
+    id: 10,
+    icon: 'fas fa-tshirt fa-5x',
+    title: 'Merch Store',
+    technologies:
+      'React, Redux, Router, Hooks, HTML, CSS, SCSS, Styled-components, Firebase(DB, Auth), Heroku(Hosting)',
+    gitLink: 'https://github.com/artyomsyomin/merch-store-react',
+    openLink: 'https://merch-store-react.herokuapp.com/',
+  },
+  {
     id: 1,
     icon: 'fas fa-hamburger fa-5x',
     title: 'Burger Building app',
@@ -49,14 +58,15 @@ export const projectData = [
     gitLink: 'https://github.com/artyomsyomin/tinDogSite',
     openLink: 'https://artyomsyomin.github.io/tinDogSite/',
   },
-  {
-    id: 7,
-    icon: 'fas fa-wallet fa-5x',
-    title: 'Money Converter',
-    technologies: 'React, States, Router, API, HTML, CSS, Firebase',
-    gitLink: 'https://github.com/artyomsyomin/money-rate-changer',
-    openLink: 'https://money-changer-app-9fc72.web.app/',
-  },
+
+  // {
+  //   id: 7,
+  //   icon: 'fas fa-wallet fa-5x',
+  //   title: 'Money Converter',
+  //   technologies: 'React, States, Router, API, HTML, CSS, Firebase',
+  //   gitLink: 'https://github.com/artyomsyomin/money-rate-changer',
+  //   openLink: 'https://money-changer-app-9fc72.web.app/',
+  // },
   {
     id: 8,
     icon: 'fas fa-check-circle fa-5x',

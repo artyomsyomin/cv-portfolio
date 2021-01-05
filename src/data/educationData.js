@@ -11,6 +11,15 @@ export const educationData = [
   {
     id: '2',
     icon: 'fas fa-laptop-code fa-5x',
+    title: 'Complete React Developer',
+    type: 'Online Course',
+    duration: '360 lectures - 40h 24m total length',
+    link:
+      'https://www.udemy.com/certificate/UC-ffdc167c-b003-4727-9997-02243320da0a/',
+  },
+  {
+    id: '3',
+    icon: 'fas fa-laptop-code fa-5x',
     title: 'The Complete Web Development Bootcamp',
     type: 'Online Course',
     duration: '469 lectures - 54h 12m total length',
@@ -27,7 +36,7 @@ export const educationData = [
       'https://www.udemy.com/certificate/UC-ccc8324c-e430-43a2-8226-808bf6d94549/',
   },
   {
-    id: '3',
+    id: '5',
     icon: 'fas fa-laptop-code fa-5x',
     title: 'React - The Complete Guide',
     type: 'Online Course',
